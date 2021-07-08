@@ -1,0 +1,86 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    /* background-image: url('img/bg.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
+    height: 100vh;
+    overflow: hidden;
+}
+.taskbar{
+position: absolute;
+bottom: 0px;
+width:100vw;
+text-align: center;
+background-color: aliceblue;
+z-index: 70;
+}
+#fileexplorer{
+    width: 35px;
+    height:35px;
+    margin-bottom:6px;
+}
+#righttaskbar{
+    position: absolute;
+    right: 0px;
+    height: 43px;
+    bottom: 0px;
+}
+.startmenu{
+position: absolute;
+bottom: -650px;
+width: 100vw;
+text-align: center;
+transition: all 0.4s ease-in;
+z-index: 50;
+}
+.startmenu img{
+    width: 420px;
+
+}
+.searchmenu{
+position: absolute;
+bottom: -650px;
+width: 100vw;
+text-align: center;
+transition: all 0.4s ease-in;
+z-index: 50;
+}
+.searchmenu img{
+    width: 530px;
+
+}
+
+.icon{
+    width: 60px;
+    height: 45px;
+    margin: 6px;
+    text-align: center;
+    position: fixed;
+    
+    font-size: 12px;
+    font-family: sans-serif;
+}
+.icon img{
+    width: 45px;
+    margin: 2px;
+}
+#edge{
+    margin-top: 162px;
+}
+
+#recycle{
+    margin-top: 78px;
+}
+
+#vlc{
+    margin-top: 234px;
+}
+video{
+    height: 100vh;
+    width: 100%;
+    
+}
